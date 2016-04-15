@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Airport Distance Calculator</title>
+  <link rel="stylesheet" type="text/css" href="./home.css">
+
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+
+  <script src="./airport_distance.js"></script>
+</head>
+
+<body>
+
+    <h1>Airport Distance Calculator</h1>
+    <form>
+      Starting airport: <input type="text" id="starting-search"><br><br>
+      Ending airport: <input type="text" id="ending-search"><br><br>
+      <input type="submit" value="Calculate Distance">
+    </form><br>
+
+    <div id="googleMap" style="width:1080px;height:600px;"></div>
+
+
+</body>
+</html>
